@@ -8,14 +8,14 @@
 
 ## Why Use WeightUsageAnalyzer?
 
-As Deep Learning models become more complex, their cost in terms of computation, energy, and inference time increases. However, not all weights in a neural network contribute equally to the model's performance. This library helps answer critical questions:
+As ML models become more complex, their cost in terms of computation, energy, and inference time increases. However, not all weights in a neural network contribute equally to the model's performance. I wanted to find solution and train myself in answering these questions:
 
 * **Is my model oversized?** Identify layers or neurons that contribute little to the final decision.
 * **What is the real cost of my model?** Get a concrete estimate of the computational operations (FLOPs) required for training and inference.
 * **How can I make my model more efficient?** Use the generated reports to guide optimization decisions (like reducing layer sizes) without sacrificing accuracy.
 * **How can I interpret the internal structure of my network?** Visualize the most important neural "pathways" to better understand your model's behavior.
 
-By adopting a quantitative approach, WeightUsageAnalyzer helps build models that are not only powerful but also efficient and lightweight.
+The goal is to helps build models that are keep their powerness but with more efficiency and lightweight.
 
 ---
 
