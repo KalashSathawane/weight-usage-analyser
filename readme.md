@@ -1,4 +1,4 @@
-# WeightUsageAnalyzer
+# Weight Usage Analyzer
 
 **WeightUsageAnalyzer** is a Python library for analyzing and visualizing the efficiency of neural network models in PyTorch and TensorFlow. It provides tools to quantify the actual usage of weights, estimate computational costs (FLOPs), and identify optimization opportunities, promoting an approach of "computational sobriety."
 
