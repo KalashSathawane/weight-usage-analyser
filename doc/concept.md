@@ -16,9 +16,6 @@ $$ \text{Importance}(w_{ij}) = |w_{ij}| \times \overline{a_j} $$
 Where:
 -   $|w_{ij}|$ is the **magnitude (absolute value) of the weight**. A weight with a large magnitude has a stronger impact on the output neuron.
 -   $\overline{a_j}$ is the **average activation of the output neuron $j$** across the entire dataset. A high activation means the neuron is frequently "firing" and actively participates in the computation.
-
-This metric combines both structural influence (weight magnitude) and dynamic influence (activation) to provide a complete view of a weight's utility.
-
 ---
 
 ## 2. Entropy and "Effective Weights"
