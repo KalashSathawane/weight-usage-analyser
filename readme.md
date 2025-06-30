@@ -86,7 +86,7 @@ Contributions are welcome! Please open issues or submit pull requests to help im
 
 ## License
 
-MIT License
+Apache 2.0 License
 
 ---
 
