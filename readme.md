@@ -79,6 +79,11 @@ Contributions are welcome! Please open issues or submit pull requests to help im
 
 ---
 
+## What's Next ?
+- CNN models analysis
+- more stability
+---
+
 ## License
 
 MIT License
