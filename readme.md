@@ -1,5 +1,5 @@
 # Weight Usage Analyzer
-Pruning and model compression techniques have been extensively studied. My goal was to investigate the importance of weights themselves, rather than just neurons or channels, to gain a finer understanding of model efficiency and complexity.
+Pruning and machine learning model compression techniques have been extensively studied. My goal was to investigate the importance of weights themselves, rather than just neurons or channels, to gain a finer understanding of model efficiency and complexity.
 
 This curiosity led to this project, an open-source Python library for detailed analysis of weight usage in neural networks (compatible with PyTorch & TensorFlow).
 
