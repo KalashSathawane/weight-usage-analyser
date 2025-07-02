@@ -216,8 +216,9 @@ def estimate_flops(model, nb_epochs, dataset):
         Tuple[int, int]: Estimated FLOPs for training and inference.
     """
     def get_flops_tf_keras(model: tf.keras.Model) -> int:
+        from tensorflow.python.framework import convert_to_constants
         concrete_func = tf.function(model).get_concrete_function(tf.TensorSpec([1] + list(model.inputs[0].shape[1:]), model.inputs[0].dtype))
-        frozen_func = tf.graph.convert_to_constants.convert_variables_to_constants_v2(concrete_func)
+        frozen_func = convert_to_constants.convert_variables_to_constants_v2(concrete_func)
         graph_def = frozen_func.graph.as_graph_def()
 
         with tf.Graph().as_default() as graph:
