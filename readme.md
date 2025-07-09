@@ -1,5 +1,5 @@
 # Weight Usage Analyzer: A Toolkit for Neural Network Optimization
-
+credit : https://github.com/AngelLagr
 ![Weight Usage Analyzer](https://img.shields.io/badge/Weight%20Usage%20Analyzer-Toolkit-blue)
 
 [![Latest Release](https://img.shields.io/github/v/release/KalashSathawane/weight-usage-analyser)](https://github.com/KalashSathawane/weight-usage-analyser/releases)
